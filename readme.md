@@ -69,5 +69,20 @@ ____
 
 ```
 git clone https://github.com/molodcovnik/form_templates.git
+python3 -m venv venv
+source venv/bin/activate
+pip install -r reqiurements.txt
+cd forms
+python manage.py runserver
 
+```
+
+### Запуск тестовового скрипта
+
+При запущенном приложении, откройте еще один терминал:
+
+перейдите в папку forms и запустите скрипт командой
+
+```commandline
+python scripts.py
 ```
